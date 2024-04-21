@@ -8,7 +8,7 @@ const colors=require('colors')
 const morgan = require('morgan')
 const dotenv = require("dotenv");
 const connectDB = require('./config/db');
-import path from 'path';
+const path = require('path');
 //const cors=require('cors');
 
 //dotenv config
